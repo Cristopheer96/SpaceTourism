@@ -1,0 +1,130 @@
+html {
+  font-size: 62.5%;
+}
+p {
+  font-size: 1.6rem;
+}
+
+*{
+    box-sizing: border-box;
+    padding:0px;
+    margin: 0px;
+    font-size: 1.6rem;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+
+nav{
+  right: 0px;
+  width: 98%;
+  display: flex;
+  justify-content: left;
+  padding-top: rem;
+  height: 15vh;
+}
+body{
+/* IMAGEN DE FONDO ! */
+background-image:url("./space-tourism-website-main/starter-code/assets/crew/background-crew-desktop.jpg" );
+background-size: cover;
+width: 100vw;
+height: 100vh;
+}
+
+.left-nav{
+  display: flex;
+
+  width: 39%;
+}
+
+.left-nav .line{
+  display: relative;
+  margin: auto;
+  height: .2rem;
+  background-color: #979797;
+  width: 60%;
+}
+.left-nav img{
+  width: 5rem;
+  height: 5rem;
+margin: auto;}
+
+.rigth-nav{
+background-color: rgba(53, 48, 48,.4);
+  width: 60%;
+  height: 10rem;
+  padding-top: 4rem;
+ backdrop-filter: blur(10px);
+  background-color: rgba(151, 151,151, 0.16);
+}
+.rigth-nav ul{
+  display: flex;
+  width: 80%;
+  justify-content: center;
+
+}
+.rigth-nav li{
+  list-style: none;
+  margin-left: 5rem;
+  color: white;
+  height: 100%;
+}
+.rigth-nav li a:hover{
+  border-bottom: 5px solid white;
+
+}
+
+.rigth-nav li a{
+  text-decoration: none;
+  margin-left: 5rem;
+  color: white;
+  margin-top: 8rem;
+
+}
+main{
+  display: flex;
+  width: 100vw;
+}
+
+.main-left{
+  position: relative;
+  left: 17rem;
+  width: 50rem;
+}
+
+.main-left .first{
+color: white;
+letter-spacing: .5rem;
+font-weight: 100;
+font-size: 2.8rem;
+margin-bottom: 15rem;
+margin-top: 8rem;
+
+}
+
+.main-left .second{
+  font-size: 3.2rem;
+  color: #FFFFFF;
+  font-weight: 100;
+  margin-bottom: 1.5rem;
+}
+
+.main-left .third{
+  font-size: 5.6rem;
+  color: #FFFFFF;
+    font-family: 'Bellefair', serif;
+    font-weight: 100;
+    margin-bottom: 3.5rem;
+
+
+
+}
+
+.main-left .fourth{
+  font-size: 1.8rem;
+  font-weight: 100;
+  color: #D0D6F9;
+}
+
+.main-rigth{
+position: absolute;
+right: 10rem;}

@@ -1,0 +1,137 @@
+html {
+  font-size: 62.5%;
+}
+p {
+  font-size: 1.6rem;
+}
+
+*{
+    box-sizing: border-box;
+    padding:0px;
+    margin: 0px;
+    font-size: 1.6rem;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 100;
+}
+
+
+nav{
+  right: 0px;
+  width: 98%;
+  display: flex;
+  justify-content: left;
+  padding-top: rem;
+  height: 15vh;
+}
+body{
+/* IMAGEN DE FONDO ! */
+background-image:url("./space-tourism-website-main/starter-code/assets/home/background-home-desktop.jpg" );
+background-size: cover;
+width: 100vw;
+height: 100vh;
+}
+
+.left-nav{
+  display: flex;
+
+  width: 39%;
+}
+
+.left-nav .line{
+  display: relative;
+  margin: auto;
+  height: .2rem;
+  background-color: #979797;
+  width: 60%;
+}
+.left-nav img{
+  width: 5rem;
+  height: 5rem;
+margin: auto;}
+
+.rigth-nav{
+background-color: rgba(53, 48, 48,.4);
+  width: 60%;
+  height: 10rem;
+  padding-top: 4rem;
+ backdrop-filter: blur(10px);
+  background-color: rgba(151, 151,151, 0.16);
+}
+.rigth-nav ul{
+  display: flex;
+  width: 80%;
+  justify-content: center;
+
+}
+.rigth-nav li{
+  list-style: none;
+  margin-left: 5rem;
+  color: white;
+  height: 100%;
+}
+.rigth-nav li a:hover{
+  border-bottom: 5px solid white;
+
+}
+
+.rigth-nav li a{
+  text-decoration: none;
+  margin-left: 5rem;
+  color: white;
+
+
+}
+/* ACABA EL NAV! */
+
+
+main{
+  display: flex;
+  height: 84vh;
+}
+.main-text{
+  position: relative;
+  left: 16rem;
+  width: 45rem;
+  height: 40rem;
+  top:40%;
+
+
+
+}
+
+.main-text .first{
+  font-size: 2.8rem;
+  font-weight:100;
+  color: #D0D6F9;
+
+}
+.main-text .second{
+  font-size: 15rem;
+  font-family: 'Bellefair', serif;
+  font-weight: 100;
+  color: white;
+}
+.main-text .third{
+  font-size: 1.8rem;
+  color: #D0D6F9;
+    font-weight:100;
+
+}
+
+.main-circle{
+  border-radius: 50%;
+  width: 28rem;
+  height: 28rem;
+  font-family: 'Bellefair', serif;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  right: -40%;
+top:40%;
+}
+.main-circle p{
+  font-size: 3.2rem;
+margin: auto
+;}
